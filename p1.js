@@ -26,6 +26,19 @@ for(i=0;i<arr5.length;i++){
  total=sumArr5+sumArr3;
 console.log("The sum of all the multiples of 3 or 5 below 1000 = "+ total);
  
+
+
+
+var total2=0;
+for(i=0;i<aim;i++){
+  if(i%3===0 || i%5===0){
+    total2=total2+i;
+    
+  }
+
+}  console.log("you ungraceful son of a bitch! "+total2);
+
+
 //this is for the other method and checks... using array manipulation--later!! :D
 
 // var theBiggerArray;
